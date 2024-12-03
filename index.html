@@ -33,12 +33,14 @@
 
     <section class="cta">
         <h2>Join Our Beta Testing Program</h2>
-        <form action="#" method="post">
+        <form action="/thank-you" method="POST" data-netlify="true" name="beta-signup">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <input type="text" name="business" placeholder="Business Type / Team Size" required>
+            <input type="hidden" name="form-name" value="beta-signup">
             <button type="submit">Sign Up</button>
-        </form>
+        </form>        
+        
     </section>
 
     <footer>
