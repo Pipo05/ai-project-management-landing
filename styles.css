@@ -79,7 +79,11 @@
             background: #333;
             color: white;
             margin-top: 20px;
-        }
+        } 
+         /* ====================
+   Testimonials Section
+  ==================== */
+
 
         .testimonials {
             display: flex;
@@ -102,5 +106,49 @@
             margin: 10px 0;
             color: #333;
         }
+
+        /* ====================
+   Thank-you Section
+  ==================== */
+
         
+        .thank-you-container {
+            text-align: center;
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 600px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .thank-you-container h1 {
+            font-size: 2rem;
+            color: #007bff;
+        }
+        
+        .thank-you-container p {
+            margin: 20px 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        
+        .thank-you-container .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        
+        .thank-you-container .button:hover {
+            background-color: #0056b3;
+        }
+        /* ====================
+   .... Section
+  ==================== */
+
     
