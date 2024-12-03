@@ -6,6 +6,13 @@
     <meta name="description" content="Simplify your workflow with AI-driven task management. Join our beta testing program today!">
     <title>AI-Driven Project Management</title>
     <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
 </head>
 <body>
     <header>
@@ -31,6 +38,26 @@
         </div>
     </section>
 
+    <section>
+        <h2>See It in Action</h2>
+        <p>Explore how AI-driven project management can streamline your workflow.</p>
+        <img src="project-man.jpg" alt="Screenshot of project management dashboard" style="max-width: 100%; border-radius: 10px;">
+    </section>
+
+    <section>
+        <h2>What People Are Saying</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"This tool has transformed the way our team manages projects!"</p>
+                <p><strong>- Janine Dorothy, Project Manager</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"I love the AI prioritization feature—it saves us so much time!"</p>
+                <p><strong>- John Smith, Freelancer</strong></p>
+            </div>
+        </div>
+    </section>
+
     <section class="cta">
         <h2>Join Our Beta Testing Program</h2>
         <form action="/thank-you" method="POST" data-netlify="true" name="beta-signup">
@@ -40,7 +67,6 @@
             <input type="hidden" name="form-name" value="beta-signup">
             <button type="submit">Sign Up</button>
         </form>        
-        
     </section>
 
     <footer>

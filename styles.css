@@ -80,4 +80,27 @@
             color: white;
             margin-top: 20px;
         }
+
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .testimonial {
+            flex: 0 1 300px;
+            margin: 10px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .testimonial p {
+            margin: 10px 0;
+            color: #333;
+        }
+        
     
