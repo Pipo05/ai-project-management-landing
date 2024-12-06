@@ -1,154 +1,171 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
+/* ====================
+   General Styles
+==================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #007bff, #6a5acd);
+    color: #fff; /* Adjusted to ensure text is readable against the gradient */
+}
 
-        header {
-            background: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
+header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay to contrast with the gradient */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
 
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2rem;
-        }
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
 
-        section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+/* ====================
+   Section Styles
+==================== */
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Subtle transparent background */
+    border-radius: 10px; /* Adds softness to the section edges */
+}
 
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+/* ====================
+   Features Section
+==================== */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-        .feature {
-            flex: 1 1 calc(33% - 20px);
-            margin: 10px;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
+.feature {
+    flex: 1 1 calc(33% - 20px);
+    margin: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds depth */
+    color: #333; /* Ensures readability */
+}
 
-        .cta {
-            text-align: center;
-            background: #f1f1f1;
-            padding: 40px 20px;
-            margin-top: 40px;
-        }
+/* ====================
+   Call-to-Action Section
+==================== */
+.cta {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
 
-        .cta form {
-            max-width: 500px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
+.cta form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
-        .cta input, .cta button {
-            padding: 10px;
-            font-size: 1rem;
-        }
+.cta input, .cta button {
+    padding: 10px;
+    font-size: 1rem;
+}
 
-        .cta button {
-            background: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+.cta button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-            margin-top: 20px;
-        } 
-         /* ====================
+.cta button:hover {
+    background-color: #0056b3;
+}
+
+/* ====================
+   Footer
+==================== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ccc;
+    margin-top: 20px;
+}
+
+/* ====================
    Testimonials Section
-  ==================== */
+==================== */
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
 
+.testimonial {
+    flex: 0 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
 
-        .testimonials {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-        
-        .testimonial {
-            flex: 0 1 300px;
-            margin: 10px;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        
-        .testimonial p {
-            margin: 10px 0;
-            color: #333;
-        }
+.testimonial p {
+    margin: 10px 0;
+}
 
-        /* ====================
-   Thank-you Section
-  ==================== */
+/* ====================
+   Thank-You Page Styles
+==================== */
+.thank-you-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
 
-        
-        .thank-you-container {
-            text-align: center;
-            margin: 50px auto;
-            padding: 20px;
-            max-width: 600px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        .thank-you-container h1 {
-            font-size: 2rem;
-            color: #007bff;
-        }
-        
-        .thank-you-container p {
-            margin: 20px 0;
-            font-size: 1.2rem;
-            color: #333;
-        }
-        
-        .thank-you-container .button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1rem;
-            color: white;
-            background-color: #007bff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        
-        .thank-you-container .button:hover {
-            background-color: #0056b3;
-        }
-        /* ====================
-   .... Section
-  ==================== */
+.thank-you-container h1 {
+    font-size: 2rem;
+    color: #007bff;
+}
 
-    
+.thank-you-container p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.thank-you-container .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.thank-you-container .button:hover {
+    background-color: #0056b3;
+}
